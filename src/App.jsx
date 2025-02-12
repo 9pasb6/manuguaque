@@ -49,7 +49,7 @@ function App() {
 
   const handleYesClick = () => {
     setShowHappyGif(true);
-    setMessage('¡Oh Siii!, Te Amo 🖤');
+    setMessage('¡Oh Siii!, Te Amo ❤️');
     setYesButtonSize({ fontSize: '16px', padding: '10px 20px' });
     setShowButtons(false);
 
@@ -79,7 +79,7 @@ function App() {
         break;
       case 3:
         newGif = mocha3Gif;
-        newMessage = 'Estás rompiendo mi corazón :(';
+        newMessage = 'Estás rompiendo mi corazón 💔';
         break;
       case 10:
         newMessage = '¡Es broma, por favor di que sí!';
